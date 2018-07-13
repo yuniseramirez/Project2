@@ -1,10 +1,6 @@
 <template>
   <div class="hello">
    
-
-   
-    
-
     <div class= "data" v-for="article in articles">
      <img :src="article.Image"/>
      <h1>  {{article.Title}} </h1>
